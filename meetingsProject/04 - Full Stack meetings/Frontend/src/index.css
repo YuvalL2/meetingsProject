@@ -1,0 +1,11 @@
+html, body, #root {
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(rgb(242, 206, 252), rgb(248, 248, 248));
+}
+
+a {
+    color: rgb(226, 52, 52);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+

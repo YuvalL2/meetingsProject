@@ -1,0 +1,20 @@
+.Insert>form {
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;	
+    width: 250px;
+    text-align: left;
+    font-size: large;
+    background-image: linear-gradient(rgb(173, 0, 0), rgb(255, 255, 255));
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.Insert input, .Insert select, .Insert button {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size:medium;
+}

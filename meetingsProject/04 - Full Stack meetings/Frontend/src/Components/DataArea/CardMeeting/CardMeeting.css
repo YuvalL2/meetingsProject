@@ -1,0 +1,27 @@
+.CardMeeting {
+    border: 1px solid;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 345px;
+    height: 170px;
+    overflow-y: auto;
+    text-align: left;
+    position: relative;
+    background-image: linear-gradient(rgb(243, 100, 100), rgb(255, 255, 255));
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+
+}
+
+.CardMeeting>button {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+
+}

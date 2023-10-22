@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "7cb19c01-c880-40a9-a2f7-6d4e2d6d4184",
+		"name": "management-meetings REST API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28707880"
+	},
+	"item": [
+		{
+			"name": "Get all groups",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/groups",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"groups"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get meeting by group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/meetings_schedule-by-group/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"meetings_schedule-by-group",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add meeting",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"groupId\":4,\r\n    \"beginningTime\": 6930,\r\n    \"endTime\": 1045,\r\n    \"description\": \"cool meeting\",\r\n    \"roomMeeting\":\"red room\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/meetings",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"meetings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete meeting",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"groupId\":4,\r\n    \"beginningTime\": 6930,\r\n    \"endTime\": 1045,\r\n    \"description\": \"cool meeting\",\r\n    \"roomMeeting\":\"red room\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/meetings",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"meetings"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
